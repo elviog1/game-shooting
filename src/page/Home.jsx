@@ -58,7 +58,7 @@ const Home = () => {
       <div className="text-2xl mb-4 dark:text-slate-300 text-slate-800">Score: {score}</div>
       {!gameOver && (
 
-        <img src='./src/assets/shoot.png' className=" absolute"
+        <img src='../src/assets/shoot.png' className=" absolute"
         style={{
           width: `${circle.size}px`,
           height: `${circle.size}px`,
